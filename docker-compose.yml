@@ -101,6 +101,8 @@ services:
       - wekan-tier
     expose:
       - 27017
+    ports:
+      - 27017:27017
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - wekan-db:/data/db
@@ -180,8 +182,8 @@ services:
       # If without https, can be only wekan node, no need for Caddy/Nginx/Apache if you don't need them
       #  - http://example.com
       #  - http://boards.example.com
-      #  - http://192.168.1.100    <=== using at local LAN
-      - ROOT_URL=http://localhost  #   <=== using only at same laptop/desktop where Wekan is installed
+      - ROOT_URL=http://192.168.1.11   # <=== using at local LAN
+      # - ROOT_URL=http://localhost  #   <=== using only at same laptop/desktop where Wekan is installed
       #---------------------------------------------------------------
       # ==== EMAIL SETTINGS ====
       # Email settings are only at MAIL_URL and MAIL_FROM.

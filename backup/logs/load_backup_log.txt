@@ -1,0 +1,585 @@
+"[2025-10-26 00:06:43]" Avvio backup Wekan  
+wekan-app
+OCI runtime exec failed: exec failed: unable to start container process: exec: "mongostore": executable file not found in $PATH: unknown
+"[2025-10-26 00:11:23]" Avvio backup Wekan  
+wekan-app
+CreateFile C:\Users\matte\Desktop\dump: The system cannot find the file specified.
+"[2025-10-26 00:12:11]" Avvio backup Wekan  
+wekan-app
+OCI runtime exec failed: exec failed: unable to start container process: exec: "mongostore": executable file not found in $PATH: unknown
+"[2025-10-26 00:12:54]" Avvio backup Wekan  
+wekan-app
+2025-10-25T22:12:55.348+0000	preparing collections to restore from
+2025-10-25T22:12:55.348+0000	don't know what to do with file "/data/dump/prelude.json", skipping...
+2025-10-25T22:12:55.348+0000	reading metadata for wekan.invitation_codes from /data/dump/wekan/invitation_codes.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.org from /data/dump/wekan/org.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.activities from /data/dump/wekan/activities.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.checklistItems from /data/dump/wekan/checklistItems.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.meteor_accounts_loginServiceConfiguration from /data/dump/wekan/meteor_accounts_loginServiceConfiguration.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.boards from /data/dump/wekan/boards.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.cards from /data/dump/wekan/cards.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.settings from /data/dump/wekan/settings.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.swimlanes from /data/dump/wekan/swimlanes.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.tableVisibilityModeSettings from /data/dump/wekan/tableVisibilityModeSettings.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.__pre_attachments from /data/dump/wekan/__pre_attachments.metadata.json
+2025-10-25T22:12:55.349+0000	reading metadata for wekan.orgUser from /data/dump/wekan/orgUser.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.rules from /data/dump/wekan/rules.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.unsaved-edits from /data/dump/wekan/unsaved-edits.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.users from /data/dump/wekan/users.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.lists from /data/dump/wekan/lists.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.lockoutSettings from /data/dump/wekan/lockoutSettings.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.accountSettings from /data/dump/wekan/accountSettings.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.cronJobQueue from /data/dump/wekan/cronJobQueue.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.cronJobs from /data/dump/wekan/cronJobs.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.meteor_oauth_pendingCredentials from /data/dump/wekan/meteor_oauth_pendingCredentials.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.positionHistory from /data/dump/wekan/positionHistory.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.team from /data/dump/wekan/team.metadata.json
+2025-10-25T22:12:55.350+0000	reading metadata for wekan.translation from /data/dump/wekan/translation.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.__pre_avatars from /data/dump/wekan/__pre_avatars.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.attachments from /data/dump/wekan/attachments.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.cronJobStatus from /data/dump/wekan/cronJobStatus.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.triggers from /data/dump/wekan/triggers.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.accessibilitySettings from /data/dump/wekan/accessibilitySettings.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.checklists from /data/dump/wekan/checklists.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.card_comment_reactions from /data/dump/wekan/card_comment_reactions.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.card_comments from /data/dump/wekan/card_comments.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.cronJobSteps from /data/dump/wekan/cronJobSteps.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.customFields from /data/dump/wekan/customFields.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.integrations from /data/dump/wekan/integrations.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.presences from /data/dump/wekan/presences.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.actions from /data/dump/wekan/actions.metadata.json
+2025-10-25T22:12:55.351+0000	reading metadata for wekan.announcements from /data/dump/wekan/announcements.metadata.json
+2025-10-25T22:12:55.352+0000	dropping collection wekan.cronJobs before restoring
+2025-10-25T22:12:55.352+0000	dropping collection wekan.boards before restoring
+2025-10-25T22:12:55.352+0000	dropping collection wekan.positionHistory before restoring
+2025-10-25T22:12:55.352+0000	dropping collection wekan.activities before restoring
+2025-10-25T22:12:55.383+0000	restoring wekan.cronJobs from /data/dump/wekan/cronJobs.bson
+2025-10-25T22:12:55.391+0000	restoring wekan.boards from /data/dump/wekan/boards.bson
+2025-10-25T22:12:55.393+0000	finished restoring wekan.cronJobs (378 documents, 0 failures)
+2025-10-25T22:12:55.393+0000	dropping collection wekan.cards before restoring
+2025-10-25T22:12:55.397+0000	restoring wekan.positionHistory from /data/dump/wekan/positionHistory.bson
+2025-10-25T22:12:55.402+0000	finished restoring wekan.boards (2 documents, 0 failures)
+2025-10-25T22:12:55.402+0000	dropping collection wekan.users before restoring
+2025-10-25T22:12:55.403+0000	restoring wekan.activities from /data/dump/wekan/activities.bson
+2025-10-25T22:12:55.408+0000	finished restoring wekan.positionHistory (7 documents, 0 failures)
+2025-10-25T22:12:55.408+0000	dropping collection wekan.swimlanes before restoring
+2025-10-25T22:12:55.414+0000	finished restoring wekan.activities (9 documents, 0 failures)
+2025-10-25T22:12:55.414+0000	dropping collection wekan.lockoutSettings before restoring
+2025-10-25T22:12:55.421+0000	restoring wekan.cards from /data/dump/wekan/cards.bson
+2025-10-25T22:12:55.434+0000	restoring wekan.users from /data/dump/wekan/users.bson
+2025-10-25T22:12:55.442+0000	finished restoring wekan.cards (2 documents, 0 failures)
+2025-10-25T22:12:55.442+0000	dropping collection wekan.accountSettings before restoring
+2025-10-25T22:12:55.455+0000	restoring wekan.swimlanes from /data/dump/wekan/swimlanes.bson
+2025-10-25T22:12:55.459+0000	finished restoring wekan.users (1 document, 0 failures)
+2025-10-25T22:12:55.459+0000	dropping collection wekan.settings before restoring
+2025-10-25T22:12:55.470+0000	finished restoring wekan.swimlanes (4 documents, 0 failures)
+2025-10-25T22:12:55.470+0000	dropping collection wekan.lists before restoring
+2025-10-25T22:12:55.475+0000	restoring wekan.lockoutSettings from /data/dump/wekan/lockoutSettings.bson
+2025-10-25T22:12:55.480+0000	restoring wekan.accountSettings from /data/dump/wekan/accountSettings.bson
+2025-10-25T22:12:55.498+0000	restoring wekan.settings from /data/dump/wekan/settings.bson
+2025-10-25T22:12:55.498+0000	finished restoring wekan.lockoutSettings (6 documents, 0 failures)
+2025-10-25T22:12:55.498+0000	dropping collection wekan.tableVisibilityModeSettings before restoring
+2025-10-25T22:12:55.501+0000	finished restoring wekan.accountSettings (3 documents, 0 failures)
+2025-10-25T22:12:55.501+0000	dropping collection wekan.announcements before restoring
+2025-10-25T22:12:55.506+0000	restoring wekan.lists from /data/dump/wekan/lists.bson
+2025-10-25T22:12:55.510+0000	finished restoring wekan.settings (1 document, 0 failures)
+2025-10-25T22:12:55.510+0000	dropping collection wekan.accessibilitySettings before restoring
+2025-10-25T22:12:55.518+0000	finished restoring wekan.lists (1 document, 0 failures)
+2025-10-25T22:12:55.518+0000	dropping collection wekan.card_comment_reactions before restoring
+2025-10-25T22:12:55.532+0000	restoring wekan.tableVisibilityModeSettings from /data/dump/wekan/tableVisibilityModeSettings.bson
+2025-10-25T22:12:55.545+0000	finished restoring wekan.tableVisibilityModeSettings (1 document, 0 failures)
+2025-10-25T22:12:55.545+0000	dropping collection wekan.org before restoring
+2025-10-25T22:12:55.552+0000	restoring wekan.announcements from /data/dump/wekan/announcements.bson
+2025-10-25T22:12:55.558+0000	restoring wekan.accessibilitySettings from /data/dump/wekan/accessibilitySettings.bson
+2025-10-25T22:12:55.563+0000	restoring wekan.card_comment_reactions from /data/dump/wekan/card_comment_reactions.bson
+2025-10-25T22:12:55.564+0000	finished restoring wekan.announcements (1 document, 0 failures)
+2025-10-25T22:12:55.564+0000	dropping collection wekan.cronJobSteps before restoring
+2025-10-25T22:12:55.572+0000	finished restoring wekan.accessibilitySettings (1 document, 0 failures)
+2025-10-25T22:12:55.572+0000	dropping collection wekan.cronJobQueue before restoring
+2025-10-25T22:12:55.576+0000	finished restoring wekan.card_comment_reactions (0 documents, 0 failures)
+2025-10-25T22:12:55.576+0000	dropping collection wekan.customFields before restoring
+2025-10-25T22:12:55.582+0000	restoring wekan.org from /data/dump/wekan/org.bson
+2025-10-25T22:12:55.594+0000	finished restoring wekan.org (0 documents, 0 failures)
+2025-10-25T22:12:55.594+0000	dropping collection wekan.integrations before restoring
+2025-10-25T22:12:55.594+0000	restoring wekan.cronJobSteps from /data/dump/wekan/cronJobSteps.bson
+2025-10-25T22:12:55.606+0000	restoring wekan.cronJobQueue from /data/dump/wekan/cronJobQueue.bson
+2025-10-25T22:12:55.607+0000	finished restoring wekan.cronJobSteps (0 documents, 0 failures)
+2025-10-25T22:12:55.607+0000	dropping collection wekan.invitation_codes before restoring
+2025-10-25T22:12:55.618+0000	restoring wekan.customFields from /data/dump/wekan/customFields.bson
+2025-10-25T22:12:55.620+0000	finished restoring wekan.cronJobQueue (0 documents, 0 failures)
+2025-10-25T22:12:55.620+0000	dropping collection wekan.checklists before restoring
+2025-10-25T22:12:55.629+0000	restoring wekan.integrations from /data/dump/wekan/integrations.bson
+2025-10-25T22:12:55.630+0000	finished restoring wekan.customFields (0 documents, 0 failures)
+2025-10-25T22:12:55.630+0000	dropping collection wekan.checklistItems before restoring
+2025-10-25T22:12:55.640+0000	restoring wekan.invitation_codes from /data/dump/wekan/invitation_codes.bson
+2025-10-25T22:12:55.645+0000	finished restoring wekan.integrations (0 documents, 0 failures)
+2025-10-25T22:12:55.645+0000	dropping collection wekan.meteor_accounts_loginServiceConfiguration before restoring
+2025-10-25T22:12:55.651+0000	restoring wekan.checklists from /data/dump/wekan/checklists.bson
+2025-10-25T22:12:55.657+0000	restoring wekan.checklistItems from /data/dump/wekan/checklistItems.bson
+2025-10-25T22:12:55.659+0000	finished restoring wekan.invitation_codes (0 documents, 0 failures)
+2025-10-25T22:12:55.659+0000	dropping collection wekan.meteor_oauth_pendingCredentials before restoring
+2025-10-25T22:12:55.663+0000	finished restoring wekan.checklists (0 documents, 0 failures)
+2025-10-25T22:12:55.663+0000	dropping collection wekan.cronJobStatus before restoring
+2025-10-25T22:12:55.669+0000	finished restoring wekan.checklistItems (0 documents, 0 failures)
+2025-10-25T22:12:55.669+0000	dropping collection wekan.orgUser before restoring
+2025-10-25T22:12:55.676+0000	restoring wekan.meteor_accounts_loginServiceConfiguration from /data/dump/wekan/meteor_accounts_loginServiceConfiguration.bson
+2025-10-25T22:12:55.685+0000	restoring wekan.meteor_oauth_pendingCredentials from /data/dump/wekan/meteor_oauth_pendingCredentials.bson
+2025-10-25T22:12:55.687+0000	finished restoring wekan.meteor_accounts_loginServiceConfiguration (0 documents, 0 failures)
+2025-10-25T22:12:55.687+0000	dropping collection wekan.card_comments before restoring
+2025-10-25T22:12:55.696+0000	finished restoring wekan.meteor_oauth_pendingCredentials (0 documents, 0 failures)
+2025-10-25T22:12:55.696+0000	dropping collection wekan.presences before restoring
+2025-10-25T22:12:55.696+0000	restoring wekan.cronJobStatus from /data/dump/wekan/cronJobStatus.bson
+2025-10-25T22:12:55.706+0000	restoring wekan.orgUser from /data/dump/wekan/orgUser.bson
+2025-10-25T22:12:55.708+0000	finished restoring wekan.cronJobStatus (0 documents, 0 failures)
+2025-10-25T22:12:55.708+0000	dropping collection wekan.rules before restoring
+2025-10-25T22:12:55.717+0000	restoring wekan.card_comments from /data/dump/wekan/card_comments.bson
+2025-10-25T22:12:55.720+0000	finished restoring wekan.orgUser (0 documents, 0 failures)
+2025-10-25T22:12:55.720+0000	dropping collection wekan.__pre_attachments before restoring
+2025-10-25T22:12:55.730+0000	restoring wekan.presences from /data/dump/wekan/presences.bson
+2025-10-25T22:12:55.731+0000	finished restoring wekan.card_comments (0 documents, 0 failures)
+2025-10-25T22:12:55.731+0000	dropping collection wekan.attachments before restoring
+2025-10-25T22:12:55.740+0000	restoring wekan.rules from /data/dump/wekan/rules.bson
+2025-10-25T22:12:55.745+0000	finished restoring wekan.presences (0 documents, 0 failures)
+2025-10-25T22:12:55.745+0000	dropping collection wekan.actions before restoring
+2025-10-25T22:12:55.751+0000	restoring wekan.__pre_attachments from /data/dump/wekan/__pre_attachments.bson
+2025-10-25T22:12:55.758+0000	finished restoring wekan.rules (0 documents, 0 failures)
+2025-10-25T22:12:55.758+0000	dropping collection wekan.team before restoring
+2025-10-25T22:12:55.758+0000	restoring wekan.attachments from /data/dump/wekan/attachments.bson
+2025-10-25T22:12:55.764+0000	finished restoring wekan.__pre_attachments (0 documents, 0 failures)
+2025-10-25T22:12:55.764+0000	dropping collection wekan.translation before restoring
+2025-10-25T22:12:55.771+0000	finished restoring wekan.attachments (0 documents, 0 failures)
+2025-10-25T22:12:55.771+0000	dropping collection wekan.triggers before restoring
+2025-10-25T22:12:55.776+0000	restoring wekan.actions from /data/dump/wekan/actions.bson
+2025-10-25T22:12:55.787+0000	restoring wekan.team from /data/dump/wekan/team.bson
+2025-10-25T22:12:55.788+0000	finished restoring wekan.actions (0 documents, 0 failures)
+2025-10-25T22:12:55.788+0000	dropping collection wekan.unsaved-edits before restoring
+2025-10-25T22:12:55.798+0000	restoring wekan.translation from /data/dump/wekan/translation.bson
+2025-10-25T22:12:55.800+0000	finished restoring wekan.team (0 documents, 0 failures)
+2025-10-25T22:12:55.800+0000	dropping collection wekan.__pre_avatars before restoring
+2025-10-25T22:12:55.810+0000	restoring wekan.triggers from /data/dump/wekan/triggers.bson
+2025-10-25T22:12:55.812+0000	finished restoring wekan.translation (0 documents, 0 failures)
+2025-10-25T22:12:55.820+0000	restoring wekan.unsaved-edits from /data/dump/wekan/unsaved-edits.bson
+2025-10-25T22:12:55.822+0000	finished restoring wekan.triggers (0 documents, 0 failures)
+2025-10-25T22:12:55.825+0000	restoring wekan.__pre_avatars from /data/dump/wekan/__pre_avatars.bson
+2025-10-25T22:12:55.835+0000	finished restoring wekan.unsaved-edits (0 documents, 0 failures)
+2025-10-25T22:12:55.843+0000	finished restoring wekan.__pre_avatars (0 documents, 0 failures)
+2025-10-25T22:12:55.843+0000	restoring indexes for collection wekan.__pre_avatars from metadata
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "expireAfterSeconds":10800, "name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.843+0000	restoring indexes for collection wekan.invitation_codes from metadata
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "name":"c2_email", "sparse":false, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"email", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.843+0000	restoring indexes for collection wekan.triggers from metadata
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.843+0000	restoring indexes for collection wekan.card_comments from metadata
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.843+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.850+0000	restoring indexes for collection wekan.checklistItems from metadata
+2025-10-25T22:12:55.850+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.850+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"checklistId_1", "v":2}, Key:primitive.D{primitive.E{Key:"checklistId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.850+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.857+0000	restoring indexes for collection wekan.positionHistory from metadata
+2025-10-25T22:12:55.857+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.857+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_entityType_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"entityType", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.857+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_entityType_1_entityId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"entityType", Value:1}, primitive.E{Key:"entityId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.883+0000	restoring indexes for collection wekan.attachments from metadata
+2025-10-25T22:12:55.883+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"meta.cardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"meta.cardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.887+0000	restoring indexes for collection wekan.presences from metadata
+2025-10-25T22:12:55.887+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"serverId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"serverId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.903+0000	restoring indexes for collection wekan.tableVisibilityModeSettings from metadata
+2025-10-25T22:12:55.903+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.908+0000	restoring indexes for collection wekan.orgUser from metadata
+2025-10-25T22:12:55.908+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"orgId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.908+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgId_-1_userId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"orgId", Value:-1}, primitive.E{Key:"userId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.919+0000	restoring indexes for collection wekan.unsaved-edits from metadata
+2025-10-25T22:12:55.919+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"userId_1", "v":2}, Key:primitive.D{primitive.E{Key:"userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.919+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.955+0000	restoring indexes for collection wekan.translation from metadata
+2025-10-25T22:12:55.955+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.963+0000	restoring indexes for collection wekan.checklists from metadata
+2025-10-25T22:12:55.963+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.963+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.977+0000	restoring indexes for collection wekan.customFields from metadata
+2025-10-25T22:12:55.977+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardIds_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardIds", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.977+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:55.981+0000	restoring indexes for collection wekan.announcements from metadata
+2025-10-25T22:12:55.981+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.000+0000	restoring indexes for collection wekan.org from metadata
+2025-10-25T22:12:56.000+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgDisplayName_1", "v":2}, Key:primitive.D{primitive.E{Key:"orgDisplayName", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.007+0000	restoring indexes for collection wekan.cards from metadata
+2025-10-25T22:12:56.007+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.007+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.007+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"parentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"parentId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.020+0000	restoring indexes for collection wekan.settings from metadata
+2025-10-25T22:12:56.020+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.029+0000	restoring indexes for collection wekan.swimlanes from metadata
+2025-10-25T22:12:56.029+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.029+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.047+0000	restoring indexes for collection wekan.__pre_attachments from metadata
+2025-10-25T22:12:56.047+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "expireAfterSeconds":10800, "name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.076+0000	restoring indexes for collection wekan.meteor_oauth_pendingCredentials from metadata
+2025-10-25T22:12:56.076+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.076+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"credentialSecret_1", "v":2}, Key:primitive.D{primitive.E{Key:"credentialSecret", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.076+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"key_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"key", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.090+0000	restoring indexes for collection wekan.actions from metadata
+2025-10-25T22:12:56.090+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.123+0000	restoring indexes for collection wekan.lockoutSettings from metadata
+2025-10-25T22:12:56.124+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.125+0000	restoring indexes for collection wekan.cronJobs from metadata
+2025-10-25T22:12:56.125+0000	index: &idx.IndexDocument{Options:primitive.M{"expireAfterSeconds":172800, "name":"startedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"startedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.125+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"intendedAt_1_name_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"intendedAt", Value:1}, primitive.E{Key:"name", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.132+0000	restoring indexes for collection wekan.team from metadata
+2025-10-25T22:12:56.132+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"teamDisplayName_1", "v":2}, Key:primitive.D{primitive.E{Key:"teamDisplayName", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.152+0000	restoring indexes for collection wekan.accessibilitySettings from metadata
+2025-10-25T22:12:56.152+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.168+0000	restoring indexes for collection wekan.card_comment_reactions from metadata
+2025-10-25T22:12:56.168+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardCommentId_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"cardCommentId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.169+0000	restoring indexes for collection wekan.rules from metadata
+2025-10-25T22:12:56.169+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.187+0000	restoring indexes for collection wekan.cronJobStatus from metadata
+2025-10-25T22:12:56.188+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.188+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"updatedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"updatedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.188+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.188+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobId_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.207+0000	restoring indexes for collection wekan.integrations from metadata
+2025-10-25T22:12:56.207+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.207+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.218+0000	restoring indexes for collection wekan.cronJobSteps from metadata
+2025-10-25T22:12:56.218+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobId_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.218+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"stepIndex_1", "v":2}, Key:primitive.D{primitive.E{Key:"stepIndex", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.218+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.239+0000	restoring indexes for collection wekan.activities from metadata
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"customFieldId_1", "v":2}, Key:primitive.D{primitive.E{Key:"customFieldId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"customFieldId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"attachmentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"attachmentId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"attachmentId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.239+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"commentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"commentId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"commentId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:12:56.245+0000	restoring indexes for collection wekan.meteor_accounts_loginServiceConfiguration from metadata
+2025-10-25T22:12:56.245+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"service_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"service", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.251+0000	restoring indexes for collection wekan.boards from metadata
+2025-10-25T22:12:56.251+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"members.userId_1", "v":2}, Key:primitive.D{primitive.E{Key:"members.userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.251+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.251+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"_id_1_members.userId_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"_id", Value:1}, primitive.E{Key:"members.userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	restoring indexes for collection wekan.users from metadata
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.enroll.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.enroll.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"username_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"username", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.hashedToken_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.hashedToken", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.oidc.id_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.oidc.id", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.reset.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.reset.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.haveLoginTokensToDelete_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.haveLoginTokensToDelete", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"emails.address_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"emails.address", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.email.verificationTokens.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.email.verificationTokens.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.enroll.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.enroll.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.268+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.reset.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.reset.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	restoring indexes for collection wekan.lists from metadata
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-sort_1", "v":2}, Key:primitive.D{primitive.E{Key:"-sort", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-modifiedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"-modifiedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"archivedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"archivedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"title_1", "v":2}, Key:primitive.D{primitive.E{Key:"title", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"sort_1", "v":2}, Key:primitive.D{primitive.E{Key:"sort", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-title_1", "v":2}, Key:primitive.D{primitive.E{Key:"-title", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.289+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.449+0000	restoring indexes for collection wekan.accountSettings from metadata
+2025-10-25T22:12:56.449+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.596+0000	restoring indexes for collection wekan.cronJobQueue from metadata
+2025-10-25T22:12:56.596+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.596+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"priority_1_createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"priority", Value:1}, primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.596+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobType_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobType", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:12:56.733+0000	417 document(s) restored successfully. 0 document(s) failed to restore.
+wekan-app
+"[2025-10-26 00:12:54]" Backup completato.  
+ 
+"[2025-10-26 00:34:53]" Avvio backup Wekan  
+wekan-app
+2025-10-25T22:34:55.119+0000	preparing collections to restore from
+2025-10-25T22:34:55.119+0000	don't know what to do with file "/data/dump/prelude.json", skipping...
+2025-10-25T22:34:55.120+0000	reading metadata for wekan.org from /data/dump/wekan/org.metadata.json
+2025-10-25T22:34:55.120+0000	reading metadata for wekan.users from /data/dump/wekan/users.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.cronJobSteps from /data/dump/wekan/cronJobSteps.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.cronJobs from /data/dump/wekan/cronJobs.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.integrations from /data/dump/wekan/integrations.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.orgUser from /data/dump/wekan/orgUser.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.triggers from /data/dump/wekan/triggers.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.__pre_attachments from /data/dump/wekan/__pre_attachments.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.activities from /data/dump/wekan/activities.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.cards from /data/dump/wekan/cards.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.checklists from /data/dump/wekan/checklists.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.meteor_accounts_loginServiceConfiguration from /data/dump/wekan/meteor_accounts_loginServiceConfiguration.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.rules from /data/dump/wekan/rules.metadata.json
+2025-10-25T22:34:55.121+0000	reading metadata for wekan.unsaved-edits from /data/dump/wekan/unsaved-edits.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.announcements from /data/dump/wekan/announcements.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.lockoutSettings from /data/dump/wekan/lockoutSettings.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.boards from /data/dump/wekan/boards.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.lists from /data/dump/wekan/lists.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.customFields from /data/dump/wekan/customFields.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.invitation_codes from /data/dump/wekan/invitation_codes.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.presences from /data/dump/wekan/presences.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.translation from /data/dump/wekan/translation.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.attachments from /data/dump/wekan/attachments.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.checklistItems from /data/dump/wekan/checklistItems.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.meteor_oauth_pendingCredentials from /data/dump/wekan/meteor_oauth_pendingCredentials.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.positionHistory from /data/dump/wekan/positionHistory.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.settings from /data/dump/wekan/settings.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.team from /data/dump/wekan/team.metadata.json
+2025-10-25T22:34:55.122+0000	reading metadata for wekan.card_comments from /data/dump/wekan/card_comments.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.cronJobStatus from /data/dump/wekan/cronJobStatus.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.accountSettings from /data/dump/wekan/accountSettings.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.actions from /data/dump/wekan/actions.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.card_comment_reactions from /data/dump/wekan/card_comment_reactions.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.cronJobQueue from /data/dump/wekan/cronJobQueue.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.swimlanes from /data/dump/wekan/swimlanes.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.tableVisibilityModeSettings from /data/dump/wekan/tableVisibilityModeSettings.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.__pre_avatars from /data/dump/wekan/__pre_avatars.metadata.json
+2025-10-25T22:34:55.123+0000	reading metadata for wekan.accessibilitySettings from /data/dump/wekan/accessibilitySettings.metadata.json
+2025-10-25T22:34:55.124+0000	dropping collection wekan.cronJobs before restoring
+2025-10-25T22:34:55.124+0000	dropping collection wekan.boards before restoring
+2025-10-25T22:34:55.124+0000	dropping collection wekan.activities before restoring
+2025-10-25T22:34:55.124+0000	dropping collection wekan.positionHistory before restoring
+2025-10-25T22:34:55.153+0000	restoring wekan.cronJobs from /data/dump/wekan/cronJobs.bson
+2025-10-25T22:34:55.159+0000	restoring wekan.activities from /data/dump/wekan/activities.bson
+2025-10-25T22:34:55.164+0000	finished restoring wekan.cronJobs (612 documents, 0 failures)
+2025-10-25T22:34:55.164+0000	dropping collection wekan.cards before restoring
+2025-10-25T22:34:55.167+0000	restoring wekan.boards from /data/dump/wekan/boards.bson
+2025-10-25T22:34:55.170+0000	finished restoring wekan.activities (9 documents, 0 failures)
+2025-10-25T22:34:55.170+0000	dropping collection wekan.users before restoring
+2025-10-25T22:34:55.175+0000	restoring wekan.positionHistory from /data/dump/wekan/positionHistory.bson
+2025-10-25T22:34:55.177+0000	finished restoring wekan.boards (2 documents, 0 failures)
+2025-10-25T22:34:55.177+0000	dropping collection wekan.swimlanes before restoring
+2025-10-25T22:34:55.185+0000	finished restoring wekan.positionHistory (7 documents, 0 failures)
+2025-10-25T22:34:55.185+0000	dropping collection wekan.lockoutSettings before restoring
+2025-10-25T22:34:55.198+0000	restoring wekan.cards from /data/dump/wekan/cards.bson
+2025-10-25T22:34:55.204+0000	restoring wekan.users from /data/dump/wekan/users.bson
+2025-10-25T22:34:55.215+0000	finished restoring wekan.cards (2 documents, 0 failures)
+2025-10-25T22:34:55.215+0000	dropping collection wekan.accountSettings before restoring
+2025-10-25T22:34:55.216+0000	restoring wekan.swimlanes from /data/dump/wekan/swimlanes.bson
+2025-10-25T22:34:55.222+0000	finished restoring wekan.users (1 document, 0 failures)
+2025-10-25T22:34:55.222+0000	dropping collection wekan.settings before restoring
+2025-10-25T22:34:55.223+0000	restoring wekan.lockoutSettings from /data/dump/wekan/lockoutSettings.bson
+2025-10-25T22:34:55.233+0000	finished restoring wekan.swimlanes (4 documents, 0 failures)
+2025-10-25T22:34:55.233+0000	dropping collection wekan.lists before restoring
+2025-10-25T22:34:55.240+0000	finished restoring wekan.lockoutSettings (6 documents, 0 failures)
+2025-10-25T22:34:55.240+0000	dropping collection wekan.tableVisibilityModeSettings before restoring
+2025-10-25T22:34:55.241+0000	restoring wekan.accountSettings from /data/dump/wekan/accountSettings.bson
+2025-10-25T22:34:55.248+0000	restoring wekan.settings from /data/dump/wekan/settings.bson
+2025-10-25T22:34:55.253+0000	finished restoring wekan.accountSettings (3 documents, 0 failures)
+2025-10-25T22:34:55.253+0000	dropping collection wekan.announcements before restoring
+2025-10-25T22:34:55.261+0000	finished restoring wekan.settings (1 document, 0 failures)
+2025-10-25T22:34:55.261+0000	dropping collection wekan.accessibilitySettings before restoring
+2025-10-25T22:34:55.274+0000	restoring wekan.lists from /data/dump/wekan/lists.bson
+2025-10-25T22:34:55.286+0000	finished restoring wekan.lists (1 document, 0 failures)
+2025-10-25T22:34:55.286+0000	dropping collection wekan.card_comment_reactions before restoring
+2025-10-25T22:34:55.286+0000	restoring wekan.tableVisibilityModeSettings from /data/dump/wekan/tableVisibilityModeSettings.bson
+2025-10-25T22:34:55.292+0000	restoring wekan.announcements from /data/dump/wekan/announcements.bson
+2025-10-25T22:34:55.298+0000	restoring wekan.accessibilitySettings from /data/dump/wekan/accessibilitySettings.bson
+2025-10-25T22:34:55.299+0000	finished restoring wekan.tableVisibilityModeSettings (1 document, 0 failures)
+2025-10-25T22:34:55.299+0000	dropping collection wekan.org before restoring
+2025-10-25T22:34:55.304+0000	finished restoring wekan.announcements (1 document, 0 failures)
+2025-10-25T22:34:55.304+0000	dropping collection wekan.cronJobSteps before restoring
+2025-10-25T22:34:55.310+0000	finished restoring wekan.accessibilitySettings (1 document, 0 failures)
+2025-10-25T22:34:55.310+0000	dropping collection wekan.cronJobQueue before restoring
+2025-10-25T22:34:55.314+0000	restoring wekan.card_comment_reactions from /data/dump/wekan/card_comment_reactions.bson
+2025-10-25T22:34:55.325+0000	restoring wekan.org from /data/dump/wekan/org.bson
+2025-10-25T22:34:55.326+0000	finished restoring wekan.card_comment_reactions (0 documents, 0 failures)
+2025-10-25T22:34:55.326+0000	dropping collection wekan.customFields before restoring
+2025-10-25T22:34:55.334+0000	restoring wekan.cronJobSteps from /data/dump/wekan/cronJobSteps.bson
+2025-10-25T22:34:55.337+0000	finished restoring wekan.org (0 documents, 0 failures)
+2025-10-25T22:34:55.337+0000	dropping collection wekan.integrations before restoring
+2025-10-25T22:34:55.346+0000	restoring wekan.cronJobQueue from /data/dump/wekan/cronJobQueue.bson
+2025-10-25T22:34:55.348+0000	finished restoring wekan.cronJobSteps (0 documents, 0 failures)
+2025-10-25T22:34:55.348+0000	dropping collection wekan.invitation_codes before restoring
+2025-10-25T22:34:55.356+0000	restoring wekan.customFields from /data/dump/wekan/customFields.bson
+2025-10-25T22:34:55.358+0000	finished restoring wekan.cronJobQueue (0 documents, 0 failures)
+2025-10-25T22:34:55.358+0000	dropping collection wekan.checklists before restoring
+2025-10-25T22:34:55.362+0000	restoring wekan.integrations from /data/dump/wekan/integrations.bson
+2025-10-25T22:34:55.371+0000	finished restoring wekan.customFields (0 documents, 0 failures)
+2025-10-25T22:34:55.371+0000	dropping collection wekan.checklistItems before restoring
+2025-10-25T22:34:55.377+0000	restoring wekan.invitation_codes from /data/dump/wekan/invitation_codes.bson
+2025-10-25T22:34:55.378+0000	finished restoring wekan.integrations (0 documents, 0 failures)
+2025-10-25T22:34:55.378+0000	dropping collection wekan.meteor_accounts_loginServiceConfiguration before restoring
+2025-10-25T22:34:55.386+0000	restoring wekan.checklists from /data/dump/wekan/checklists.bson
+2025-10-25T22:34:55.389+0000	finished restoring wekan.invitation_codes (0 documents, 0 failures)
+2025-10-25T22:34:55.389+0000	dropping collection wekan.meteor_oauth_pendingCredentials before restoring
+2025-10-25T22:34:55.398+0000	finished restoring wekan.checklists (0 documents, 0 failures)
+2025-10-25T22:34:55.398+0000	dropping collection wekan.cronJobStatus before restoring
+2025-10-25T22:34:55.401+0000	restoring wekan.checklistItems from /data/dump/wekan/checklistItems.bson
+2025-10-25T22:34:55.411+0000	restoring wekan.meteor_accounts_loginServiceConfiguration from /data/dump/wekan/meteor_accounts_loginServiceConfiguration.bson
+2025-10-25T22:34:55.413+0000	finished restoring wekan.checklistItems (0 documents, 0 failures)
+2025-10-25T22:34:55.413+0000	dropping collection wekan.orgUser before restoring
+2025-10-25T22:34:55.421+0000	restoring wekan.meteor_oauth_pendingCredentials from /data/dump/wekan/meteor_oauth_pendingCredentials.bson
+2025-10-25T22:34:55.423+0000	finished restoring wekan.meteor_accounts_loginServiceConfiguration (0 documents, 0 failures)
+2025-10-25T22:34:55.423+0000	dropping collection wekan.card_comments before restoring
+2025-10-25T22:34:55.431+0000	restoring wekan.cronJobStatus from /data/dump/wekan/cronJobStatus.bson
+2025-10-25T22:34:55.432+0000	finished restoring wekan.meteor_oauth_pendingCredentials (0 documents, 0 failures)
+2025-10-25T22:34:55.432+0000	dropping collection wekan.presences before restoring
+2025-10-25T22:34:55.442+0000	restoring wekan.orgUser from /data/dump/wekan/orgUser.bson
+2025-10-25T22:34:55.443+0000	finished restoring wekan.cronJobStatus (0 documents, 0 failures)
+2025-10-25T22:34:55.443+0000	dropping collection wekan.rules before restoring
+2025-10-25T22:34:55.454+0000	restoring wekan.card_comments from /data/dump/wekan/card_comments.bson
+2025-10-25T22:34:55.454+0000	finished restoring wekan.orgUser (0 documents, 0 failures)
+2025-10-25T22:34:55.455+0000	dropping collection wekan.__pre_attachments before restoring
+2025-10-25T22:34:55.464+0000	restoring wekan.presences from /data/dump/wekan/presences.bson
+2025-10-25T22:34:55.467+0000	finished restoring wekan.card_comments (0 documents, 0 failures)
+2025-10-25T22:34:55.467+0000	dropping collection wekan.attachments before restoring
+2025-10-25T22:34:55.476+0000	restoring wekan.rules from /data/dump/wekan/rules.bson
+2025-10-25T22:34:55.477+0000	finished restoring wekan.presences (0 documents, 0 failures)
+2025-10-25T22:34:55.477+0000	dropping collection wekan.actions before restoring
+2025-10-25T22:34:55.487+0000	restoring wekan.__pre_attachments from /data/dump/wekan/__pre_attachments.bson
+2025-10-25T22:34:55.491+0000	finished restoring wekan.rules (0 documents, 0 failures)
+2025-10-25T22:34:55.491+0000	dropping collection wekan.team before restoring
+2025-10-25T22:34:55.499+0000	restoring wekan.attachments from /data/dump/wekan/attachments.bson
+2025-10-25T22:34:55.499+0000	finished restoring wekan.__pre_attachments (0 documents, 0 failures)
+2025-10-25T22:34:55.499+0000	dropping collection wekan.translation before restoring
+2025-10-25T22:34:55.511+0000	restoring wekan.actions from /data/dump/wekan/actions.bson
+2025-10-25T22:34:55.515+0000	finished restoring wekan.attachments (0 documents, 0 failures)
+2025-10-25T22:34:55.515+0000	dropping collection wekan.triggers before restoring
+2025-10-25T22:34:55.523+0000	restoring wekan.team from /data/dump/wekan/team.bson
+2025-10-25T22:34:55.527+0000	finished restoring wekan.actions (0 documents, 0 failures)
+2025-10-25T22:34:55.527+0000	dropping collection wekan.unsaved-edits before restoring
+2025-10-25T22:34:55.530+0000	restoring wekan.translation from /data/dump/wekan/translation.bson
+2025-10-25T22:34:55.536+0000	finished restoring wekan.team (0 documents, 0 failures)
+2025-10-25T22:34:55.536+0000	dropping collection wekan.__pre_avatars before restoring
+2025-10-25T22:34:55.542+0000	finished restoring wekan.translation (0 documents, 0 failures)
+2025-10-25T22:34:55.546+0000	restoring wekan.triggers from /data/dump/wekan/triggers.bson
+2025-10-25T22:34:55.558+0000	finished restoring wekan.triggers (0 documents, 0 failures)
+2025-10-25T22:34:55.559+0000	restoring wekan.unsaved-edits from /data/dump/wekan/unsaved-edits.bson
+2025-10-25T22:34:55.565+0000	restoring wekan.__pre_avatars from /data/dump/wekan/__pre_avatars.bson
+2025-10-25T22:34:55.571+0000	finished restoring wekan.unsaved-edits (0 documents, 0 failures)
+2025-10-25T22:34:55.577+0000	finished restoring wekan.__pre_avatars (0 documents, 0 failures)
+2025-10-25T22:34:55.577+0000	restoring indexes for collection wekan.org from metadata
+2025-10-25T22:34:55.577+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgDisplayName_1", "v":2}, Key:primitive.D{primitive.E{Key:"orgDisplayName", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	restoring indexes for collection wekan.cronJobSteps from metadata
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobId_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"stepIndex_1", "v":2}, Key:primitive.D{primitive.E{Key:"stepIndex", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	restoring indexes for collection wekan.integrations from metadata
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	restoring indexes for collection wekan.orgUser from metadata
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"orgId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.578+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"orgId_-1_userId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"orgId", Value:-1}, primitive.E{Key:"userId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.595+0000	restoring indexes for collection wekan.cronJobStatus from metadata
+2025-10-25T22:34:55.595+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.595+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobId_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.595+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.595+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"updatedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"updatedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.601+0000	restoring indexes for collection wekan.lockoutSettings from metadata
+2025-10-25T22:34:55.601+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.624+0000	restoring indexes for collection wekan.invitation_codes from metadata
+2025-10-25T22:34:55.624+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.624+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "name":"c2_email", "sparse":false, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"email", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.628+0000	restoring indexes for collection wekan.checklistItems from metadata
+2025-10-25T22:34:55.628+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"checklistId_1", "v":2}, Key:primitive.D{primitive.E{Key:"checklistId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.628+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.628+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.659+0000	restoring indexes for collection wekan.card_comments from metadata
+2025-10-25T22:34:55.659+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.659+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.664+0000	restoring indexes for collection wekan.actions from metadata
+2025-10-25T22:34:55.664+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.671+0000	restoring indexes for collection wekan.triggers from metadata
+2025-10-25T22:34:55.671+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.686+0000	restoring indexes for collection wekan.activities from metadata
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"attachmentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"attachmentId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"attachmentId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"commentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"commentId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"commentId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"customFieldId_1", "v":2}, Key:primitive.D{primitive.E{Key:"customFieldId", Value:1}}, PartialFilterExpression:primitive.D{primitive.E{Key:"customFieldId", Value:primitive.D{primitive.E{Key:"$exists", Value:true}}}}}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.686+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.692+0000	restoring indexes for collection wekan.announcements from metadata
+2025-10-25T22:34:55.692+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	restoring indexes for collection wekan.lists from metadata
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"title_1", "v":2}, Key:primitive.D{primitive.E{Key:"title", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-title_1", "v":2}, Key:primitive.D{primitive.E{Key:"-title", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-sort_1", "v":2}, Key:primitive.D{primitive.E{Key:"-sort", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"archivedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"archivedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"sort_1", "v":2}, Key:primitive.D{primitive.E{Key:"sort", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.697+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"-modifiedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"-modifiedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.701+0000	restoring indexes for collection wekan.attachments from metadata
+2025-10-25T22:34:55.701+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"meta.cardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"meta.cardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.749+0000	restoring indexes for collection wekan.swimlanes from metadata
+2025-10-25T22:34:55.749+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.749+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.763+0000	restoring indexes for collection wekan.tableVisibilityModeSettings from metadata
+2025-10-25T22:34:55.763+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.873+0000	restoring indexes for collection wekan.__pre_avatars from metadata
+2025-10-25T22:34:55.873+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "expireAfterSeconds":10800, "name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.914+0000	restoring indexes for collection wekan.accessibilitySettings from metadata
+2025-10-25T22:34:55.914+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.929+0000	restoring indexes for collection wekan.__pre_attachments from metadata
+2025-10-25T22:34:55.929+0000	index: &idx.IndexDocument{Options:primitive.M{"background":true, "expireAfterSeconds":10800, "name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.955+0000	restoring indexes for collection wekan.cards from metadata
+2025-10-25T22:34:55.955+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.955+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.955+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"parentId_1", "v":2}, Key:primitive.D{primitive.E{Key:"parentId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.964+0000	restoring indexes for collection wekan.unsaved-edits from metadata
+2025-10-25T22:34:55.964+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"userId_1", "v":2}, Key:primitive.D{primitive.E{Key:"userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.964+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.967+0000	restoring indexes for collection wekan.presences from metadata
+2025-10-25T22:34:55.967+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"serverId_-1", "v":2}, Key:primitive.D{primitive.E{Key:"serverId", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:55.991+0000	restoring indexes for collection wekan.accountSettings from metadata
+2025-10-25T22:34:55.991+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	restoring indexes for collection wekan.users from metadata
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"emails.address_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"emails.address", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.enroll.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.enroll.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"username_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"username", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.hashedToken_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.hashedToken", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.reset.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.reset.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.haveLoginTokensToDelete_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.haveLoginTokensToDelete", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.enroll.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.enroll.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.password.reset.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.password.reset.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.resume.loginTokens.when_1", "sparse":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.resume.loginTokens.when", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.oidc.id_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.oidc.id", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.003+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"services.email.verificationTokens.token_1", "sparse":true, "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"services.email.verificationTokens.token", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.035+0000	restoring indexes for collection wekan.cronJobs from metadata
+2025-10-25T22:34:56.035+0000	index: &idx.IndexDocument{Options:primitive.M{"expireAfterSeconds":172800, "name":"startedAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"startedAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.035+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"intendedAt_1_name_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"intendedAt", Value:1}, primitive.E{Key:"name", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.066+0000	restoring indexes for collection wekan.checklists from metadata
+2025-10-25T22:34:56.066+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardId_1_createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"cardId", Value:1}, primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.066+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.085+0000	restoring indexes for collection wekan.settings from metadata
+2025-10-25T22:34:56.085+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.115+0000	restoring indexes for collection wekan.cronJobQueue from metadata
+2025-10-25T22:34:56.115+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"status_1", "v":2}, Key:primitive.D{primitive.E{Key:"status", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.115+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"priority_1_createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"priority", Value:1}, primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.115+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"jobType_1", "v":2}, Key:primitive.D{primitive.E{Key:"jobType", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.162+0000	restoring indexes for collection wekan.rules from metadata
+2025-10-25T22:34:56.162+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.181+0000	restoring indexes for collection wekan.translation from metadata
+2025-10-25T22:34:56.181+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.197+0000	restoring indexes for collection wekan.team from metadata
+2025-10-25T22:34:56.197+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"teamDisplayName_1", "v":2}, Key:primitive.D{primitive.E{Key:"teamDisplayName", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.203+0000	restoring indexes for collection wekan.card_comment_reactions from metadata
+2025-10-25T22:34:56.203+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"cardCommentId_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"cardCommentId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.213+0000	restoring indexes for collection wekan.boards from metadata
+2025-10-25T22:34:56.213+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"members.userId_1", "v":2}, Key:primitive.D{primitive.E{Key:"members.userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.213+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.213+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"_id_1_members.userId_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"_id", Value:1}, primitive.E{Key:"members.userId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.219+0000	restoring indexes for collection wekan.meteor_oauth_pendingCredentials from metadata
+2025-10-25T22:34:56.219+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.219+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"credentialSecret_1", "v":2}, Key:primitive.D{primitive.E{Key:"credentialSecret", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.219+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"key_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"key", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.229+0000	restoring indexes for collection wekan.meteor_accounts_loginServiceConfiguration from metadata
+2025-10-25T22:34:56.229+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"service_1", "unique":true, "v":2}, Key:primitive.D{primitive.E{Key:"service", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.278+0000	restoring indexes for collection wekan.customFields from metadata
+2025-10-25T22:34:56.278+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardIds_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardIds", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.278+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"modifiedAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"modifiedAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.293+0000	restoring indexes for collection wekan.positionHistory from metadata
+2025-10-25T22:34:56.293+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"createdAt_-1", "v":2}, Key:primitive.D{primitive.E{Key:"createdAt", Value:-1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.293+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_entityType_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"entityType", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.293+0000	index: &idx.IndexDocument{Options:primitive.M{"name":"boardId_1_entityType_1_entityId_1", "v":2}, Key:primitive.D{primitive.E{Key:"boardId", Value:1}, primitive.E{Key:"entityType", Value:1}, primitive.E{Key:"entityId", Value:1}}, PartialFilterExpression:primitive.D(nil)}
+2025-10-25T22:34:56.459+0000	651 document(s) restored successfully. 0 document(s) failed to restore.
+wekan-app
+"[2025-10-26 00:34:53]" Backup completato.  
+ 
